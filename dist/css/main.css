@@ -127,12 +127,12 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  position: fixed;
 }
 body#bg-img {
   background: url(../img/background.png);
   background-attachment: fixed;
   background-size: cover;
-  height: 70vh;
 }
 body#bg-img:after {
   content: "";
