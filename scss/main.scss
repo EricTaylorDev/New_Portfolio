@@ -140,11 +140,16 @@ main {
   margin-top: 7rem;
 
   div {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border: 2px #fff solid;
     padding: 2rem 1.5rem;
     margin-bottom: 3rem;
     @include easeOut;
+
+    .email {
+      font-size: 1.2rem;
+      display: inline;
+    }
 
     &:hover {
       padding: 0.5rem 1.5rem;
